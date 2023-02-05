@@ -1,13 +1,455 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+/*#####################*/
+.header {
+  margin-top: 55px;
+}
+.header-txt {
+  width: 21%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-txt p {
+  color: #9f0013;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-content {
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.header-str {
+  width: 19%;
+  display: flex;
+  justify-content: space-around;
+}
+.header-home a {
+  text-decoration: none;
+  color: #9f0013;
+}
+.header-cmcs a {
+  text-decoration: none;
+  color: #000;
+}
+.header-cards {
+  width: 1150px;
+  height: 250px;
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  box-shadow: 0px 0px 20px 18px rgba(202, 33, 93, 0.21);
+}
+
+.cards-random {
+  width: 575px;
+  display: flex;
+}
+.image-thor img {
+  width: 180px;
+  height: 180px;
+  margin: 35px 0px 0px 35px;
+}
+.random-block p {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.random-block {
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  margin: 33px 0px 0px 30px;
+}
+.random-block span {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 25px;
+}
+.btn-block {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn-block button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.first-btn {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: #9f0013;
+  color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.second-btn {
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #5c5c5c;
+  color: white;
+  padding: 5px 20px 5px 20px;
+}
+.cards-characters {
+  width: 50%;
+  background-color: #232222;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-characters-info {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.characters-txt {
+  margin: 40px 0px 0px 30px;
+}
+.characters-block {
+  margin: 30px 0px 0px 30px;
+}
+.image-molot img {
+  width: 180px;
+  height: 150px;
+  margin-top: 70px;
+}
+
+.characters-block button {
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #9f0013;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  margin: 25px 0px 0px 10px;
+}
+/*#####################*/
+
+.main-content {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.hero-content {
+  width: 61%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hero-content img {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-content p {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 5px 0px 0px 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+.hero-cards {
+  width: 200px;
+  height: 270px;
+  margin-top: 40px;
+  background: #232222;
+  transition-duration: 0.3s;
+  position: relative;
+  bottom: 0;
+}
+
+.hero-cards:hover {
+  box-shadow: 0px 0px 30px 21px rgba(255, 0, 0, 0.2);
+  position: relative;
+  bottom: 10px;
+  transition-duration: 0.3s;
+}
+.asset-image img {
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: 250px;
+  position: fixed;
+}
+
+.characters-cards-info {
+  width: 425px;
+  height: 350px;
+  position: relative;
+  box-shadow: 0px 0px 20px 18px rgba(202, 33, 93, 0.21);
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px 0px 20px;
+}
+
+.characters-cards-block {
+  display: flex;
+}
+
+.characters-cards-image img {
+  width: 150px;
+  height: 165px;
+  margin: 20px 0px 0px 30px;
+}
+.characters-cards-btn p {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.characters-cards-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-first-btn {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: #9f0013;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 65px;
+}
+
+.cards-second-btn {
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #5c5c5c;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 20px;
+}
+
+.characters-cards-txt p {
+  width: 375px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 17px;
+  margin: 10px 0px 0px 30px;
+}
+
+.characters-cards-btn {
+  margin: 20px 0px 0px 30px;
+}
+
+.characters-cards-btn p {
+  font-size: 15px;
+}
+/*#####################*/
+
+.characters-main-image img {
+  width: 293px;
+  height: 293px;
+}
+
+.characters-main-content {
+  display: flex;
+  margin-top: 80px;
+}
+
+.characters-main-info {
+  width: 550px;
+  margin-left: 70px;
+}
+.characters-main-info p {
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.characters-main-info span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 21px;
+}
+
+.characters-main {
+  width: 100%;
+  margin: 60px auto;
+}
+
+.characters-content-header {
+  width: 100%;
+  height: 100px;
+  background: #232222;
+  display: flex;
+}
+
+.characters-first-image img {
+  width: 152px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.characters-text-block p {
+  width: 235px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 29px;
+  color: white;
+  margin: 18px 0px 0px 100px;
+}
+
+.characters-second-image img {
+  width: 133px;
+  height: 100px;
+  margin-left: 460px;
+}
+
+.hero-btn {
+  width: 50%;
+  margin: 50px auto;
+}
+.hero-btn button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #9f0013;
+  color: white;
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 5px 20px 5px 20px;
+}
+
+/*#####################*/
+.comics-main {
+  width: 100%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+}
+.comics-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comics-cards {
+  margin: 50px 0px 0px 10px;
+  transition-duration: 0.3s;
+  position: relative;
+  bottom: 0;
+  /* filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25)); */
+}
+
+.comics-cards:hover {
+  box-shadow: 0px 0px 30px 21px rgba(255, 0, 0, 0.2);
+  position: relative;
+  bottom: 10px;
+  transition-duration: 0.3s;
+}
+
+.comics-cards img {
+  width: 270px;
+  height: 346px;
+}
+.comics-cards p {
+  width: 80%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 5px 0px 5px 0px;
+}
+
+.comics-cards span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: gray;
+}
+
+.comics-btn {
+  width: 10%;
+  margin: 50px auto;
+}
+
+.comics-btn button {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #9f0013;
+  color: white;
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 5px 20px 5px 20px;
+}
+
+.characters-comics-content {
+  margin-top: 60px;
+  display: flex;
+}
+
+.characters-comics-image img {
+  width: 300px;
+  height: 450px;
+}
+
+.characters-comics-info {
+  margin-left: 60px;
+}
+
+.characters-comics-info p {
+  width: 600px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 30px;
+}
+
+.characters-comics-info span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.price-block p {
+  color: red;
+}
+
+.back-block p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  right: 0px;
 }
