@@ -59,7 +59,6 @@ a {
 .cards-random {
   width: 575px;
   display: flex;
-  background: gray;
 }
 .image-thor img {
   width: 180px;
