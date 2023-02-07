@@ -27,7 +27,7 @@ function FullComics() {
           <img src={full} alt="" />
         </div>
         <div className="characters-text-block">
-          <p>New comics every week! Stay tuned!</p>
+          <p>New comics every week! <br /> Stay tuned!</p>
         </div>
         <div className="characters-second-image">
           <img src={avengers} alt="" />
@@ -63,7 +63,3 @@ function FullComics() {
 }
 
 export default FullComics;
-
-// item.description === ""
-//                     ? `Re-live the legendary first journey into the dystopian future of 2013 - where Sentinels stalk the Earth, and the X-Men are humanity's only hope...until they die! Also featuring the first appearance of Alpha Flight, the return of the Wendigo, the history of the X-Men from Cyclops himself...and a demon for Christmas!?`
-//                     :

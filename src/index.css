@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -16,7 +19,7 @@ a {
   margin-top: 55px;
 }
 .header-txt {
-  width: 21%;
+  width: 25%;
   display: flex;
   justify-content: space-between;
 }
@@ -26,14 +29,14 @@ a {
 
 .header-content {
   width: 100%;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   font-size: 24px;
   font-weight: 700;
   display: flex;
   justify-content: space-between;
 }
 .header-str {
-  width: 19%;
+  width: 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -51,12 +54,12 @@ a {
   display: flex;
   margin-top: 100px;
   position: relative;
-  box-shadow: 0px 0px 20px 18px rgba(202, 33, 93, 0.21);
 }
 
 .cards-random {
   width: 575px;
   display: flex;
+  background: #ffffff;
 }
 .image-thor img {
   width: 180px;
@@ -66,7 +69,7 @@ a {
 .random-block p {
   font-size: 22px;
   font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
 }
 .random-block {
   width: 575px;
@@ -78,7 +81,7 @@ a {
   width: 80%;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   margin-top: 25px;
 }
 .btn-block {
@@ -90,7 +93,7 @@ a {
 .btn-block button {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
 }
 
 .first-btn {
@@ -121,9 +124,11 @@ a {
   color: white;
   font-size: 24px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
+  background: #232222;
 }
 .characters-txt {
+  font-size: 21px;
   margin: 40px 0px 0px 30px;
 }
 .characters-block {
@@ -166,7 +171,7 @@ a {
   font-size: 22px;
   font-weight: 400;
   padding: 5px 0px 0px 20px;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   color: white;
 }
 
@@ -181,9 +186,9 @@ a {
 }
 
 .hero-cards:hover {
-  box-shadow: 0px 0px 30px 21px rgba(255, 0, 0, 0.2);
+  box-shadow: 0px 0px 42px 10px rgba(163, 44, 86, 0.2);
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   transition-duration: 0.3s;
 }
 .asset-image img {
@@ -216,7 +221,7 @@ a {
 .characters-cards-btn p {
   font-size: 22px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
 }
 
 .characters-cards-btn {
@@ -233,7 +238,7 @@ a {
   padding: 5px 20px 5px 20px;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   margin-top: 65px;
 }
 
@@ -246,7 +251,7 @@ a {
   padding: 5px 20px 5px 20px;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   margin-top: 20px;
 }
 
@@ -254,7 +259,7 @@ a {
   width: 375px;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   line-height: 17px;
   margin: 10px 0px 0px 30px;
 }
@@ -286,13 +291,13 @@ a {
   margin-bottom: 40px;
   font-size: 22px;
   font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
 }
 
 .characters-main-info span {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   line-height: 21px;
 }
 
@@ -315,13 +320,13 @@ a {
 }
 
 .characters-text-block p {
-  width: 235px;
-  font-size: 24px;
+  width: 265px;
+  font-size: 22px;
   font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   line-height: 29px;
   color: white;
-  margin: 18px 0px 0px 100px;
+  margin: 15px 0px 0px 80px;
 }
 
 .characters-second-image img {
@@ -337,7 +342,7 @@ a {
 .hero-btn button {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   background-color: #9f0013;
   color: white;
   border: none;
@@ -354,44 +359,44 @@ a {
   flex-direction: column;
 }
 .comics-content {
-  width: 100%;
+  width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .comics-cards {
-  margin: 50px 0px 0px 10px;
+  margin: 50px 0px 0px 50px;
   transition-duration: 0.3s;
   position: relative;
   bottom: 0;
-  /* filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25)); */
 }
 
 .comics-cards:hover {
-  box-shadow: 0px 0px 30px 21px rgba(255, 0, 0, 0.2);
+  box-shadow: 0px 0px 42px 10px rgba(163, 44, 86, 0.2);
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   transition-duration: 0.3s;
 }
 
 .comics-cards img {
-  width: 270px;
-  height: 346px;
+  width: 100%;
+  height: 360px;
 }
 .comics-cards p {
-  width: 80%;
-  font-family: "Roboto Condensed", sans-serif;
+  width: 100%;
+  /* font-family: "Roboto Condensed", sans-serif; */
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  margin: 5px 0px 5px 0px;
+  margin: 5px 0px 5px 3px;
 }
 
 .comics-cards span {
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   color: gray;
+  margin-left: 3px;
 }
 
 .comics-btn {
@@ -400,15 +405,16 @@ a {
 }
 
 .comics-btn button {
+  width: 180px;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   background-color: #9f0013;
   color: white;
   border: none;
   border-top-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .characters-comics-content {
@@ -427,7 +433,7 @@ a {
 
 .characters-comics-info p {
   width: 600px;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -436,7 +442,7 @@ a {
 }
 
 .characters-comics-info span {
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
@@ -447,7 +453,7 @@ a {
 }
 
 .back-block p {
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;

@@ -44,7 +44,6 @@ function Hero() {
               <p>{item.name}</p>
             </div>
           ))}
-         
         </div>
 
         <div className="characters-cards-info">
@@ -80,10 +79,10 @@ function Hero() {
           )}
         </div>
       </div>
-      <div  className="hero-btn">
+      <div className="hero-btn">
         <button
           onClick={() =>
-            item.length > pagination && setPagination(pagination + 11)
+            item.length > pagination && setPagination(pagination + 9)
           }
         >
           LOAD MORE
